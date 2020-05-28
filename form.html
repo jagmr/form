@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> forms</title>
+<style>
+body
+{
+	background-image:url('https://images.unsplash.com/photo-1516534775068-ba3e7458af70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+	background-repeat:no-repeat;
+}
+</style>
+</head>
+<body>
+ <h2>this is html form</h2>
+ <form action="backend.php">
+ <label for="name"></label>
+ <div> 
+ <h3>Name</h3>:<input type ="text" name="myname" >
+</div><br>
+<div>
+role:<input type="text">
+</div>
+<br>
+<div>
+email:<input type="email" name="myemail">
+</div>
+<br>
+<div>
+     Date:<input type="date" name=" mydate" >
+</div><br>
+<div>
+     bones:<input type="number" name=" mybones" >
+</div>
+<br>
+<label for ="are u eligible"></label>
+<div>
+ are you eligible?:<input type="checkbox" name="myeligibility">
+ </div>
+ <br>
+ <div>
+     gender:male<input type="radio" name=" mygender" >
+     female<input type="radio" name=" mygender" >  
+
+</div>
+<br>
+ <div>
+     write about yourself:<br><textarea name="mytext"cols="30" rows="10"> </textarea>
+
+</div>
+<br>
+<div>
+<label for="car">car</label>
+<select name="mycar" id="car">
+<option value="indica">indica</option>
+<option value="mercidis">mercidis</option>
+</select>
+</div>
+<br>
+<div>
+ <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd">
+</div>
+<br>
+<div>
+  <input type="submit" value="submit now">
+  <input type="reset" value="reset now">
+</div>
+
+
+</form>
+</body>
+</html>
