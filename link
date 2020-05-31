@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>html links</title>
+</head>
+<body>
+<center>
+<em><h2>HTML Links</h2>
+<p>Links are found in nearly all web pages. Links allow users to click their way from page to page.</p>
+
+
+<p>You can click on a link and jump to another document.</p>
+<p>When you move the mouse over a link, the mouse arrow will turn into a little hand.</p>
+<p>HTML links are defined with the HTML <b>&lt;a&gt;</b>tag:</p>
+
+ <em><h2>HTML Links-Syntax</h2></em>
+<strong><div>&lt;a <span style="color:red">href</span>="url">link text&lt;/a &gt;</div></strong><br>
+
+
+<strong>Example</strong>
+<p><button onclick="document.location = 'https://www.gmail.com '"> This is a link</button>click for visit the gmail:</p>
+
+<p>Here we use one link such as:Button as a Link.</p>
+   
+<p><a href="https://www.google.com"target="_blank">This is google</a> this is the website to find all the answer of ur questions?</p> <br>
+
+<strong>HTML Links-The target Attribute</strong>
+
+<p>The <span style="color:red">traget</span> attribute specifies wher to open the linked document.</p>
+<p>There is one of the target attribute is _blank</p>
+<ul type="disc">
+<li><span style="color:red">_blank</span>-opens the linked document in a new windows or tab.</li>
+</ul>
+
+<h2>Image as a Links</h2>
+<p> The image is a link.You can click on it.</p>
+
+<a href="https://www.github.com  "target="_blank"><img src="https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60  "></a> 
+
+<p>A &lt;span&gt; element which is used to color a part of a text:</p>
+
+
+<h1>my <span style="color:green">important</span>
+heading</h1>
+<p>this is some <span  style="color:green" >important</span>
+text</p>
+</center>
+
+</div>
+</body>
+</html>
