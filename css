@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background-image:repeating-linear-gradient(orange,white,green);  
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+div {
+  width: 80px;
+  height: 80px;
+  border-radius:40px;
+  background: red;
+ position: relative;
+  animation: mymove;
+  animation-fill-mode:both;
+  animation-duration :5s;
+  aniamtion-direction:forward;
+}
+
+@keyframes mymove {
+  0%{top: 0px;}
+  20% {top: 200px; left:80;background:pink;}
+  30%{ top:100px; left:150px;}
+
+
+}
+
+</style>
+</head>
+<body>
+
+<div> </div>
+<h1><center>jay hind</h1><br>
+  <h1>vande matram</h1>
+</body>
+</html>
+
